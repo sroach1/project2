@@ -1,0 +1,155 @@
+.grid-12col {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 2vh;
+}
+
+.navigate-colspan2 {
+	grid-column: span 2;
+	grid-row: span 5;
+	border: 2px black solid;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+body {
+	cursor: url(images/cursor.cur), auto;
+}
+
+.title-colspan10 {
+	grid-column: span 10;
+	text-align: center;
+	border: 2px black dashed;
+	font-size: 30px;
+}
+
+.space-colspan10 {
+	grid-column: span 10;
+	text-align: center;
+}
+
+.img1-colspan2 {
+	grid-column: span 2;
+	text-align: center;
+}
+
+.whoami-colspan6 {
+	grid-column: span 6;
+	text-align: center;
+
+}
+
+.img2-colspan2 {
+	grid-column: span 2;
+	text-align: center;
+}
+
+.img3-colspan10 {
+	grid-column: span 10;
+	text-align: center;
+	border: 2px black solid;
+}
+
+.people-colspan10 {
+	grid-column: span 10;
+	text-align: center;
+	border: 2px black solid;
+}
+
+.peopletext-colspan4 {
+	grid-column: span 4;
+	text-overflow: scroll;
+} 
+
+.peopleimg-colspan4 {
+	grid-column: span 4;
+	text-align: center;
+	padding-top: 25%;
+	padding-bottom: 25%;
+}
+
+.peoplespace-colspan2 {
+	grid-column: span 2;
+}
+
+.weather-colspan10 {
+	grid-column: span 10;
+	text-align: center;
+	border: 2px black solid;
+}
+
+.weathertext-colspan3 {
+	grid-column: span 3;
+	text-align: center;
+	text-overflow: scroll;
+} 
+
+.weatherimg-colspan5 {
+	grid-column: span 5;
+	text-align: center;
+}
+
+.weatherimg-colspan3 {
+	grid-column: span 3;
+	text-align: center;
+}
+
+.weatherimg-colspan4 {
+	grid-column: span 4;
+	text-align: center;
+}
+
+.weatherspace-colspan2 {
+	grid-column: span 2;
+}
+
+.bug-colspan10 {
+	grid-column: span 10;
+	text-align: center;
+	border: 2px black solid;
+}
+
+.bugtext-colspan4 {
+	grid-column: span 4;
+	text-align: center;
+	text-overflow: scroll;
+
+} 
+
+.bugimg-colspan3 {
+	grid-column: span 3;
+	text-align: center;
+	padding-top: 25%;
+	padding-bottom: 25%;
+}
+
+.bugspace-colspan1 {
+	grid-column: span 1;
+}
+
+.img {
+	width: 100%;
+}
+
+.img2 {
+	width: 100%;
+}
+
+.img3 {
+	width: 85%;
+}
+
+a:link {
+	text-decoration: none;
+
+}
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	font-size: 40px;
+	text-decoration: underline;
+}
